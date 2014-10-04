@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89A90CCB19D93F010003CF43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A90CCA19D93F010003CF43 /* main.m */; };
+		89A90CCE19D93F010003CF43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A90CCD19D93F010003CF43 /* AppDelegate.m */; };
+		89A90CD119D93F010003CF43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A90CD019D93F010003CF43 /* ViewController.m */; };
+		89A90CD619D93F010003CF43 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89A90CD519D93F010003CF43 /* Images.xcassets */; };
+		89A90CD919D93F010003CF43 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89A90CD719D93F010003CF43 /* LaunchScreen.xib */; };
+		89A90CE519D93F010003CF43 /* iOSFakeNotificationBannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A90CE419D93F010003CF43 /* iOSFakeNotificationBannerTests.m */; };
+		89A90CF319D942F00003CF43 /* NotificationBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A90CF219D942F00003CF43 /* NotificationBanner.m */; };
+		89A90CF519D943B90003CF43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A90CF419D943B90003CF43 /* UIKit.framework */; };
+		89A90CF719D944130003CF43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A90CF619D944130003CF43 /* QuartzCore.framework */; };
+		89A90CFA19D944C20003CF43 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89A90CF919D944C20003CF43 /* CoreGraphics.framework */; };
+		89A90CFD19D94F760003CF43 /* NotificationBannerPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A90CFC19D94F760003CF43 /* NotificationBannerPresenter.m */; };
+		89A90D0019D94FF30003CF43 /* NotificationBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A90CFF19D94FF30003CF43 /* NotificationBannerView.m */; };
+		89A90D0319D96E590003CF43 /* NotificationBannerPresenterIOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A90D0219D96E590003CF43 /* NotificationBannerPresenterIOS7.m */; };
+		89A90D0619DA7E0B0003CF43 /* NotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A90D0519DA7E0B0003CF43 /* NotificationCenter.m */; };
+		89A90D0A19DA8EF70003CF43 /* NotificationBannerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A90D0919DA8EF70003CF43 /* NotificationBannerWindow.m */; };
+		89A90D0C19DAAB490003CF43 /* messager.png in Resources */ = {isa = PBXBuildFile; fileRef = 89A90D0B19DAAB490003CF43 /* messager.png */; };
+		89A90D1519DFBFEA0003CF43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89A90D1319DFBFEA0003CF43 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89A90CDF19D93F010003CF43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89A90CBD19D93F010003CF43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89A90CC419D93F010003CF43;
+			remoteInfo = iOSFakeNotificationBanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89A90CC519D93F010003CF43 /* iOSFakeNotificationBanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSFakeNotificationBanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A90CC919D93F010003CF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A90CCA19D93F010003CF43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89A90CCC19D93F010003CF43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89A90CCD19D93F010003CF43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89A90CCF19D93F010003CF43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89A90CD019D93F010003CF43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89A90CD519D93F010003CF43 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		89A90CD819D93F010003CF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		89A90CDE19D93F010003CF43 /* iOSFakeNotificationBannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSFakeNotificationBannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89A90CE319D93F010003CF43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A90CE419D93F010003CF43 /* iOSFakeNotificationBannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSFakeNotificationBannerTests.m; sourceTree = "<group>"; };
+		89A90CF119D942F00003CF43 /* NotificationBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationBanner.h; path = Library/NotificationBanner.h; sourceTree = "<group>"; };
+		89A90CF219D942F00003CF43 /* NotificationBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationBanner.m; path = Library/NotificationBanner.m; sourceTree = "<group>"; };
+		89A90CF419D943B90003CF43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89A90CF619D944130003CF43 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		89A90CF919D944C20003CF43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89A90CFB19D94F760003CF43 /* NotificationBannerPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationBannerPresenter.h; path = Library/NotificationBannerPresenter.h; sourceTree = "<group>"; };
+		89A90CFC19D94F760003CF43 /* NotificationBannerPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationBannerPresenter.m; path = Library/NotificationBannerPresenter.m; sourceTree = "<group>"; };
+		89A90CFE19D94FF30003CF43 /* NotificationBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationBannerView.h; path = Library/NotificationBannerView.h; sourceTree = "<group>"; };
+		89A90CFF19D94FF30003CF43 /* NotificationBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationBannerView.m; path = Library/NotificationBannerView.m; sourceTree = "<group>"; };
+		89A90D0119D96E590003CF43 /* NotificationBannerPresenterIOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationBannerPresenterIOS7.h; path = Library/NotificationBannerPresenterIOS7.h; sourceTree = "<group>"; };
+		89A90D0219D96E590003CF43 /* NotificationBannerPresenterIOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationBannerPresenterIOS7.m; path = Library/NotificationBannerPresenterIOS7.m; sourceTree = "<group>"; };
+		89A90D0419DA7E0B0003CF43 /* NotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationCenter.h; path = Library/NotificationCenter.h; sourceTree = "<group>"; };
+		89A90D0519DA7E0B0003CF43 /* NotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationCenter.m; path = Library/NotificationCenter.m; sourceTree = "<group>"; };
+		89A90D0719DA8C190003CF43 /* NotificationBannerPresenter_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationBannerPresenter_Private.h; path = Library/NotificationBannerPresenter_Private.h; sourceTree = "<group>"; };
+		89A90D0819DA8EF70003CF43 /* NotificationBannerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NotificationBannerWindow.h; path = Library/NotificationBannerWindow.h; sourceTree = "<group>"; };
+		89A90D0919DA8EF70003CF43 /* NotificationBannerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NotificationBannerWindow.m; path = Library/NotificationBannerWindow.m; sourceTree = "<group>"; };
+		89A90D0B19DAAB490003CF43 /* messager.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messager.png; sourceTree = "<group>"; };
+		89A90D1419DFBFEA0003CF43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89A90CC219D93F010003CF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A90CFA19D944C20003CF43 /* CoreGraphics.framework in Frameworks */,
+				89A90CF719D944130003CF43 /* QuartzCore.framework in Frameworks */,
+				89A90CF519D943B90003CF43 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A90CDB19D93F010003CF43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89A90CBC19D93F010003CF43 = {
+			isa = PBXGroup;
+			children = (
+				89A90CF819D9448D0003CF43 /* Framework */,
+				89A90CC719D93F010003CF43 /* iOSFakeNotificationBanner */,
+				89A90CE119D93F010003CF43 /* iOSFakeNotificationBannerTests */,
+				89A90CC619D93F010003CF43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89A90CC619D93F010003CF43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89A90CC519D93F010003CF43 /* iOSFakeNotificationBanner.app */,
+				89A90CDE19D93F010003CF43 /* iOSFakeNotificationBannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89A90CC719D93F010003CF43 /* iOSFakeNotificationBanner */ = {
+			isa = PBXGroup;
+			children = (
+				89A90CEE19D941370003CF43 /* Library */,
+				89A90CCC19D93F010003CF43 /* AppDelegate.h */,
+				89A90CCD19D93F010003CF43 /* AppDelegate.m */,
+				89A90D1319DFBFEA0003CF43 /* Main.storyboard */,
+				89A90CCF19D93F010003CF43 /* ViewController.h */,
+				89A90CD019D93F010003CF43 /* ViewController.m */,
+				89A90CD519D93F010003CF43 /* Images.xcassets */,
+				89A90CD719D93F010003CF43 /* LaunchScreen.xib */,
+				89A90CC819D93F010003CF43 /* Supporting Files */,
+			);
+			path = iOSFakeNotificationBanner;
+			sourceTree = "<group>";
+		};
+		89A90CC819D93F010003CF43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A90D0B19DAAB490003CF43 /* messager.png */,
+				89A90CC919D93F010003CF43 /* Info.plist */,
+				89A90CCA19D93F010003CF43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89A90CE119D93F010003CF43 /* iOSFakeNotificationBannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				89A90CE419D93F010003CF43 /* iOSFakeNotificationBannerTests.m */,
+				89A90CE219D93F010003CF43 /* Supporting Files */,
+			);
+			path = iOSFakeNotificationBannerTests;
+			sourceTree = "<group>";
+		};
+		89A90CE219D93F010003CF43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89A90CE319D93F010003CF43 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89A90CEE19D941370003CF43 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				89A90CF119D942F00003CF43 /* NotificationBanner.h */,
+				89A90CF219D942F00003CF43 /* NotificationBanner.m */,
+				89A90CFB19D94F760003CF43 /* NotificationBannerPresenter.h */,
+				89A90CFC19D94F760003CF43 /* NotificationBannerPresenter.m */,
+				89A90D0719DA8C190003CF43 /* NotificationBannerPresenter_Private.h */,
+				89A90CFE19D94FF30003CF43 /* NotificationBannerView.h */,
+				89A90CFF19D94FF30003CF43 /* NotificationBannerView.m */,
+				89A90D0119D96E590003CF43 /* NotificationBannerPresenterIOS7.h */,
+				89A90D0219D96E590003CF43 /* NotificationBannerPresenterIOS7.m */,
+				89A90D0819DA8EF70003CF43 /* NotificationBannerWindow.h */,
+				89A90D0919DA8EF70003CF43 /* NotificationBannerWindow.m */,
+				89A90D0419DA7E0B0003CF43 /* NotificationCenter.h */,
+				89A90D0519DA7E0B0003CF43 /* NotificationCenter.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		89A90CF819D9448D0003CF43 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				89A90CF919D944C20003CF43 /* CoreGraphics.framework */,
+				89A90CF619D944130003CF43 /* QuartzCore.framework */,
+				89A90CF419D943B90003CF43 /* UIKit.framework */,
+			);
+			name = Framework;
+			path = iOSFakeNotificationBanner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89A90CC419D93F010003CF43 /* iOSFakeNotificationBanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A90CE819D93F010003CF43 /* Build configuration list for PBXNativeTarget "iOSFakeNotificationBanner" */;
+			buildPhases = (
+				89A90CC119D93F010003CF43 /* Sources */,
+				89A90CC219D93F010003CF43 /* Frameworks */,
+				89A90CC319D93F010003CF43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSFakeNotificationBanner;
+			productName = iOSFakeNotificationBanner;
+			productReference = 89A90CC519D93F010003CF43 /* iOSFakeNotificationBanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89A90CDD19D93F010003CF43 /* iOSFakeNotificationBannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89A90CEB19D93F010003CF43 /* Build configuration list for PBXNativeTarget "iOSFakeNotificationBannerTests" */;
+			buildPhases = (
+				89A90CDA19D93F010003CF43 /* Sources */,
+				89A90CDB19D93F010003CF43 /* Frameworks */,
+				89A90CDC19D93F010003CF43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89A90CE019D93F010003CF43 /* PBXTargetDependency */,
+			);
+			name = iOSFakeNotificationBannerTests;
+			productName = iOSFakeNotificationBannerTests;
+			productReference = 89A90CDE19D93F010003CF43 /* iOSFakeNotificationBannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89A90CBD19D93F010003CF43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = com.lbh.fakenotificationbanner;
+				TargetAttributes = {
+					89A90CC419D93F010003CF43 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					89A90CDD19D93F010003CF43 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 89A90CC419D93F010003CF43;
+					};
+				};
+			};
+			buildConfigurationList = 89A90CC019D93F010003CF43 /* Build configuration list for PBXProject "iOSFakeNotificationBanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89A90CBC19D93F010003CF43;
+			productRefGroup = 89A90CC619D93F010003CF43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89A90CC419D93F010003CF43 /* iOSFakeNotificationBanner */,
+				89A90CDD19D93F010003CF43 /* iOSFakeNotificationBannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89A90CC319D93F010003CF43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A90CD919D93F010003CF43 /* LaunchScreen.xib in Resources */,
+				89A90D0C19DAAB490003CF43 /* messager.png in Resources */,
+				89A90CD619D93F010003CF43 /* Images.xcassets in Resources */,
+				89A90D1519DFBFEA0003CF43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A90CDC19D93F010003CF43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89A90CC119D93F010003CF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A90CFD19D94F760003CF43 /* NotificationBannerPresenter.m in Sources */,
+				89A90CF319D942F00003CF43 /* NotificationBanner.m in Sources */,
+				89A90CD119D93F010003CF43 /* ViewController.m in Sources */,
+				89A90D0019D94FF30003CF43 /* NotificationBannerView.m in Sources */,
+				89A90CCE19D93F010003CF43 /* AppDelegate.m in Sources */,
+				89A90CCB19D93F010003CF43 /* main.m in Sources */,
+				89A90D0319D96E590003CF43 /* NotificationBannerPresenterIOS7.m in Sources */,
+				89A90D0619DA7E0B0003CF43 /* NotificationCenter.m in Sources */,
+				89A90D0A19DA8EF70003CF43 /* NotificationBannerWindow.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A90CDA19D93F010003CF43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A90CE519D93F010003CF43 /* iOSFakeNotificationBannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89A90CE019D93F010003CF43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89A90CC419D93F010003CF43 /* iOSFakeNotificationBanner */;
+			targetProxy = 89A90CDF19D93F010003CF43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89A90CD719D93F010003CF43 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A90CD819D93F010003CF43 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		89A90D1319DFBFEA0003CF43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89A90D1419DFBFEA0003CF43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89A90CE619D93F010003CF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		89A90CE719D93F010003CF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89A90CE919D93F010003CF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSFakeNotificationBanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		89A90CEA19D93F010003CF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSFakeNotificationBanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		89A90CEC19D93F010003CF43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSFakeNotificationBannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSFakeNotificationBanner.app/iOSFakeNotificationBanner";
+			};
+			name = Debug;
+		};
+		89A90CED19D93F010003CF43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSFakeNotificationBannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSFakeNotificationBanner.app/iOSFakeNotificationBanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89A90CC019D93F010003CF43 /* Build configuration list for PBXProject "iOSFakeNotificationBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A90CE619D93F010003CF43 /* Debug */,
+				89A90CE719D93F010003CF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89A90CE819D93F010003CF43 /* Build configuration list for PBXNativeTarget "iOSFakeNotificationBanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A90CE919D93F010003CF43 /* Debug */,
+				89A90CEA19D93F010003CF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		89A90CEB19D93F010003CF43 /* Build configuration list for PBXNativeTarget "iOSFakeNotificationBannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89A90CEC19D93F010003CF43 /* Debug */,
+				89A90CED19D93F010003CF43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89A90CBD19D93F010003CF43 /* Project object */;
+}
